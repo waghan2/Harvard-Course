@@ -2,27 +2,72 @@
     <html>
 
     <head>
-        <title>Login</title>
+        <title>My First html page</title>
 
     <body>
         <style>
-            h1 {
+            h2 {
                 color: rgb(0, 0, 0);
-                font-size: 3em;
+                font-size: 2em;
                 margin: 0;
+
+            }
+
+            h2:hover {
+                color: rgb(4, 0, 255);
+                font-size: 2em;
+                margin: 0;
+            }
+
+            caixa {
+                width: 300px;
+                height: 300px;
+                background-color: rgb(18, 136, 97);
+
+                border-radius: 5px;
+                color: rgb(255, 255, 255);
+                font-size: 1.5em;
+                font-family: sans-serif;
+                text-align: center;
+                margin: auto;
+                padding: 1%;
+            }
+
+            caixa:hover {
+                background-color: rgb(12, 18, 104);
+                border: 1px solid rgb(4, 0, 255);
+
+            }
+
+            SquareButton {
+                width: 300px;
+                height: 300px;
+                background-color: rgb(255, 255, 255);
+                margin: auto;
+                margin-top: 100px;
+                border-radius: 0px;
+                border: 1px solid rgb(0, 0, 0);
+
+            }
+            spacer {
+                height: 100px;
+            }
+
+            SquareButton:hover {
+                background-color: rgb(12, 18, 104);
+                border: 1px solid rgb(255, 255, 255);
+                text-transform: capitalize;
+                color: rgb(255, 255, 255);
 
             }
 
             /* Center h1*/
         </style>
         <center>
-            <h1>Minha primeira pagina HTMP</h1>
+            <h1>Minha primeira pagina HTML</h1>
             <h2>Wagner W. Domingues</h2>
         </center>
-        <img
 
-        
-        
         <table>
             <tr>
                 <td>
@@ -35,10 +80,18 @@
                         <div></div>
                         <input type="password" name="senha" />
                         <div></div>
-                        <input type="submit" value="Action button"/>
+                        <input type="submit" value="Action button" />
                     </form>
                 </td>
             </tr>
         </table>
+        <caixa type="button" onclick="alert('Olá, este é um botão de alerta!')">
+            Botão de caixa
+           
+        </caixa>
+      <spacer></spacer>
+        <squarebutton type="button" onclick="print()">
+Print        </squarebutton>
+
     </body>
     </head>
