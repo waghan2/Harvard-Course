@@ -19,7 +19,7 @@ Se vc é BR e também quer fazer este curso, entre no EDX.com o curso é gratuit
 Esse django framework é "tipo" uma biblioteca que cria varias pastas com varios arquivos nos quais vc pode trabalhar, estruturando aplicações com interações
 de html, python e javascript.
 
-# Onde estamos
+## Onde estamos
 
 ## Exemplos html-> ok
 
