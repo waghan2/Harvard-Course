@@ -64,12 +64,13 @@ O arquivo index.html é um html  que já tem interações.
 Tudo que fica dentro dos "{}" é um código que pode ser executado dentro do html.
 Continuando...
 - 4 - Dentro do views.py defina uma função para renderizar uma pagina html. Aqui eu usei exatamente o mesmo código utilizado no curso.
-
+´´´
 def index(request):
     now = datetime.datetime.now()
     return render(request, "newyear/index.html", {
         "newyear": now.month == 1 and now.day == 1
     })
+´´´
 Não esqueça de importar datetime (biblioteca com funções de data e hora)
 
 Esta função irá retornar uma página html, que é justamente a pagina que criamos dentro da pasta templates/newyear.
