@@ -10,6 +10,13 @@ Sinta-se a vontade para dar uma olha.
 As pastas não estão super organizadas, mas adicionei varios comentários nas funções.
 Se vc é BR e também quer fazer este curso, entre no EDX.com o curso é gratuito sem certificado.
 
+### Comandos mais utilizados
+
+Instalando Django -> pip3 install Django (aqui pode ser pip3 ou pip... Primeiro tenho o python instalado na maquina, talvez seja necessário escolher a versão correta do python)
+
+Iniciar o servidor -> python manage.py runserver
+Criar um projeto em django -> django-admin startproject NOME_DO_PROJETO (sem espaço)
+
 ## Tópicos abordados até agora
 
 ### HTML E CSS
@@ -41,5 +48,9 @@ Foi um pouco diferente para instalar as bibliotecas e o prórpio python, no curs
 
 ## Django app com interações -> Construindo
 
-Aula 3
+Nesta aula aprendemos a utilizar o Django com algumas interações.
+
+## Aula 3
+
 Aqui começa a ficar legal, conseguimos fazer algumas interações mudando o HTML da pagina.
+Vamos iniciar um novo APP dentro do projeto comando = 
