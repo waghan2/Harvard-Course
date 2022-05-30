@@ -23,11 +23,19 @@ de html, python e javascript.
 
 ## Exemplos html-> ok
 
-Aula 1. Entendendo a linguagem de marcação
+Alguns exemplos muito basicos de um documento HTML.
+
+## Aula 1. Entendendo a linguagem de marcação
+
+Introdução a html e css.
 
 ## Exemplos Django, primeior app ->  ok
 
-Aula 2. Entendendo o Framework Django.
+Instalando Django e conhecendo o Framework.
+
+## Aula 2
+
+Entendendo o Framework Django.
 Eu uso windowns e vs Code.
 Foi um pouco diferente para instalar as bibliotecas e o prórpio python, no curso ele utiliza um mac, mas não é nada de outro mundo. O mais estranho foi instalar o python da forma correta, para instalar o django é um simples pip install...
 
