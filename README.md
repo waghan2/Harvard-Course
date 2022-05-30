@@ -71,10 +71,7 @@ Continuando...
         "newyear": now.month == 1 and now.day == 1
     })
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> a7744739d852f46a991d42484f2ecedee7c432bb
 Não esqueça de importar datetime (biblioteca com funções de data e hora)
 
 Esta função irá retornar uma página html, que é justamente a pagina que criamos dentro da pasta templates/newyear.
