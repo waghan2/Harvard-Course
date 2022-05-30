@@ -53,4 +53,23 @@ Nesta aula aprendemos a utilizar o Django com algumas interações.
 ## Aula 3
 
 Aqui começa a ficar legal, conseguimos fazer algumas interações mudando o HTML da pagina.
-Vamos iniciar um novo APP dentro do projeto comando = 
+Step by step:
+
+- 1 - Vamos iniciar um novo APP dentro do projeto comando = python manage.py startapp NOME_DO_APP
+- 2 - Incluir o app em settings.py lá no projeto que criamos.
+- 3 - Crie um arquivo urls.py no dentro do app.
+Agora ao tentar rodar o app newyear nada vai acontecer, antes temos que criar alguns arquivos.
+Para ficar tudo no padrão, temos que criar uma pasta templates e dentro desta pasta um arquivo index.html. OBS: Este é o padrão que ensinam, não precisa ter este nome nem precisa criar pastas dentro de pastas.
+O arquivo index.html é um html  que já tem interações.
+Tudo que fica dentro dos "{}" é um código que pode ser executado dentro do html.
+Continuando...
+- 4 - Dentro do views.py defina uma função para renderizar uma pagina html. Aqui eu usei exatamente o mesmo código utilizado no curso.
+
+def index(request):
+    now = datetime.datetime.now()
+    return render(request, "newyear/index.html", {
+        "newyear": now.month == 1 and now.day == 1
+    })
+Não esqueça de importar datetime (biblioteca com funções de data e hora)
+
+Esta função irá retornar uma página html, que é justamente a pagina que criamos dentro da pasta templates/newyear.
